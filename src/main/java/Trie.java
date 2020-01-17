@@ -57,7 +57,6 @@ public class Trie {
         return prefix;
     }
 
-    //loop through to find the last node of the given prefix
     public List<String> autocomplete(String prefix) {
         TrieNode lastNode = root;
         for (int i = 0; i< prefix.length(); i++) {
