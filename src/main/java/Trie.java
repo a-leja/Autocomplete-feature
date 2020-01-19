@@ -13,9 +13,6 @@ public class Trie {
     }
 
     public void insert(String word) {
-        if (search(word) == true) {
-            return;
-        }
 
         TrieNode current = root;
         TrieNode previous;
@@ -53,7 +50,7 @@ public class Trie {
     }
 
     public static String getPrefix() {
-        prefix = input.next();
+        prefix = input.nextLine();
         return prefix;
     }
 
