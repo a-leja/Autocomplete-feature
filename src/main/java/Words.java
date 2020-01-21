@@ -2,7 +2,7 @@ import java.util.List;
 
 public class Words {
 
-    public void  showAvailableWords() {
+    public void showAvailableWords() {
         Trie t = new Trie();
         t.insert("Pandora");
         t.insert("Pinterest");
